@@ -58,6 +58,7 @@
         [self.blueSlider  setValue:self.BGB animated:YES];
         [self.opSlider setValue:self.BGO animated:YES];
     }
+    [self updateLabels];
 }
 
 - (void)updateView{
