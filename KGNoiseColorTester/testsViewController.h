@@ -25,8 +25,6 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *bgTypeSel;
 @property (weak, nonatomic) IBOutlet UILabel *noVal;
 
-
-
 @property CGFloat BGR;
 @property CGFloat BGG;
 @property CGFloat BGB;
@@ -37,7 +35,6 @@
 @property CGFloat ABGO;
 @property CGFloat NOP;
 @property CGBlendMode bMode;
-
 
 - (IBAction)optionsChanged:(id)sender;
 - (IBAction)bgTypeSelChanged:(id)sender;
