@@ -110,6 +110,8 @@
     self.noVal.text = [NSString stringWithFormat:@"%.3f", self.noSlider.value];
 }
 -(void)updateRegView{
+    [self.bgTypeSel setSelectedSegmentIndex:0];
+    [self updateVals];
     [self.bgTypeSel setEnabled:FALSE];
     KGNoiseView *Noiseview = [[KGNoiseView alloc] initWithFrame:self.testView.bounds];
     Noiseview.backgroundColor = [UIColor colorWithRed:self.BGR green:self.BGG blue:self.BGB alpha:self.BGO];
