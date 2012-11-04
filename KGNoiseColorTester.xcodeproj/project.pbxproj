@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F430F4D1640BF5300EF2AF4 /* BlendModeGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F430F4C1640BF5300EF2AF4 /* BlendModeGalleryViewController.m */; };
 		8F8A32A9163E1E1E005FD44E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8A32A8163E1E1E005FD44E /* UIKit.framework */; };
 		8F8A32AB163E1E1E005FD44E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8A32AA163E1E1E005FD44E /* Foundation.framework */; };
 		8F8A32AD163E1E1E005FD44E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8A32AC163E1E1E005FD44E /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F430F4B1640BF5300EF2AF4 /* BlendModeGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlendModeGalleryViewController.h; sourceTree = "<group>"; };
+		8F430F4C1640BF5300EF2AF4 /* BlendModeGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlendModeGalleryViewController.m; sourceTree = "<group>"; };
 		8F8A32A4163E1E1E005FD44E /* KGNoiseColorTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGNoiseColorTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8A32A8163E1E1E005FD44E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8F8A32AA163E1E1E005FD44E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +89,8 @@
 		8F8A32AE163E1E1E005FD44E /* KGNoiseColorTester */ = {
 			isa = PBXGroup;
 			children = (
+				8F430F4B1640BF5300EF2AF4 /* BlendModeGalleryViewController.h */,
+				8F430F4C1640BF5300EF2AF4 /* BlendModeGalleryViewController.m */,
 				8F8A32CB163E1E37005FD44E /* KGNoise.h */,
 				8F8A32CC163E1E37005FD44E /* KGNoise.m */,
 				8F8A32B7163E1E1E005FD44E /* testsAppDelegate.h */,
@@ -183,6 +188,7 @@
 				8F8A32B5163E1E1E005FD44E /* main.m in Sources */,
 				8F8A32B9163E1E1E005FD44E /* testsAppDelegate.m in Sources */,
 				8F8A32C5163E1E1E005FD44E /* testsViewController.m in Sources */,
+				8F430F4D1640BF5300EF2AF4 /* BlendModeGalleryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

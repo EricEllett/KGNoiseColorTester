@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface testsViewController : UIViewController
+#import "BlendModeGalleryViewController.h"
+@class KGNoiseView;
+
+@interface testsViewController : UIViewController <TestViewControllerDelegate>
 
 
 @property (weak, nonatomic) IBOutlet UIView *testView;
@@ -25,6 +28,7 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *bgTypeSel;
 @property (weak, nonatomic) IBOutlet UILabel *noVal;
 
+
 @property CGFloat BGR;
 @property CGFloat BGG;
 @property CGFloat BGB;
@@ -35,9 +39,11 @@
 @property CGFloat ABGO;
 @property CGFloat NOP;
 @property CGBlendMode bMode;
+@property NSInteger currType;
 
 - (IBAction)optionsChanged:(id)sender;
 - (IBAction)bgTypeSelChanged:(id)sender;
+
 
 - (void)updateView;
 
